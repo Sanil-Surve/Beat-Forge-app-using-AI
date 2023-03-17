@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.login {
+  width: 100%;
+  margin-top: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .logo {
+  width: 50%;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+
+}
+
+.social-links a {
+  display: flex;
+  background-color: #fefefe;
+  margin: 10px 20px;
+  border: 1px solid #8B81FC;
+  color: #8B81FC;
+  padding: 10px 20px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-links a img {
+  padding-right: 10px;
+}
+
+.social-links a:hover {
+  background-color: rgb(109, 76, 152);
+  color: white;
+  /* border: px solid #8B81FC; */
+  outline: #8B81FC;
+  transition: .4s;
+}
+
+nav {
+  padding: 0 30px;
+  /* display: none; */
+  /* border: 1px solid #8B81FC; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdfbfb;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  /* width: 100%; */
+  margin-top: 0;
+  box-shadow: 0px 1px 10px #999;
+}
+
+.profile {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.scroll-control span:hover {
+  opacity: 1;
+}
+
+@media all and (max-width: 1023px) {
+  .scroll-control span {
+    /* display: none; */
+  }
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  /* margin-top: 300px; */
+  border: 1px solid #000;
+  padding: 20px;
+  /* position: relative; */
+}
+
+
+.video main {
+  background-color: #8B81FC;
+  height: 95vh;
+  /* top: 50%; */
+  /* height: 400px; */
+}
+
+.video-part {
+  margin: 80px auto;
+  width: 85%;
+  /* height: 450px; */
+  border: 1px solid black;
+
+
+}
+
+.video-part form {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: ; */
+}
+
+.video-part form button {
+  outline: none;
+  background-color: #8B81FC;
+  color: white;
+  padding: 0 20px;
+  border: 1px solid white;
+
+}
+
+.video-part form button:hover {
+  cursor: pointer;
+  background-color: rgb(109, 76, 152);
+  color: white;
+  /* border: px solid #8B81FC; */
+  outline: #8B81FC;
+  transition: .4s;
+}
+
+.video-part textarea {
+  width: 80%;
+  resize: none;
+  outline: none;
+  background: #fafafa;
+}
